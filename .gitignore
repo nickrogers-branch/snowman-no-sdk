@@ -1,0 +1,136 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+## Other
+*.xcuserdatad/
+*.xcproj.bak/
+
+# CocoaPods
+Pods
+Podfile.lock
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+
+# Swift Package Manager
+.build
+
+# Generated files
+DerivedData/
+*.xccheckout
+*.xcworkspace
+
+# IDE
+*.idea/
+*.xcuserdatad/
+*.xcworkspace
+
+# macOS
+*.DS_Store
+
+# Crashlytics
+*.csv
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Cocoapods
+Pods/
+Podfile.lock
+Pods.debug.xcconfig
+Pods.release.xcconfig
+
+# App Icons
+#*.appiconset/
+
+# Code Coverage
+*.xccovreport/
+*.xcresult/
+*.coverage/
+
+# Generated docs
+docs/
+
+# SwiftLint
+**/.swiftpm/
+**/.build/
+**/.swiftpm-*
+
+# macOS-specific
+.DS_Store
+
+# Xcode subdirectories
+**/xcuserdata
+**/xcshareddata
+**/XCSchemes
+**/*.xccheckout
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/
+#*.xcodeproj
+*.playground
+*.playgroundbook
+
+# Pods - for use with Cocoapods
+Pods
+#*.xcworkspace
+
+# Carthage - for use with Carthage
+Carthage/Build
+
+# Local config files
+Config.swift
+
+# fastlane
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots/**/*.png
+*/fastlane/test_output
+
+# Hash files
+*.bca9e5d5c5e92b56e5b1d1b1ec594d33dd66409a
+*.md5
+*.sha1
+*.sha256
+*.sha512
+
+# Xcode backup files
+*~.nib/
+*.swp
+*~.pbxproj.backup
+*~.xccheckout
+*~.xcworkspace
+
+# App icons
+#*.appiconset/
+
