@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4E035829BBA4AF00CB2A1C /* BranchSDK in Frameworks */ = {isa = PBXBuildFile; productRef = EE4E035729BBA4AF00CB2A1C /* BranchSDK */; };
+		EE4E035B29BBA5AB00CB2A1C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E035A29BBA5AB00CB2A1C /* CoreServices.framework */; };
+		EE4E035D29BBA5B200CB2A1C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E035C29BBA5B200CB2A1C /* SystemConfiguration.framework */; };
+		EE4E035F29BBA5BC00CB2A1C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E035E29BBA5BC00CB2A1C /* CoreTelephony.framework */; };
+		EE4E036129BBA5C100CB2A1C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E036029BBA5C100CB2A1C /* WebKit.framework */; };
+		EE4E036329BBA5C700CB2A1C /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E036229BBA5C700CB2A1C /* CoreSpotlight.framework */; };
+		EE4E036529BBA5CD00CB2A1C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E036429BBA5CD00CB2A1C /* AdServices.framework */; };
+		EE4E036729BBA5D400CB2A1C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E036629BBA5D300CB2A1C /* AdSupport.framework */; };
+		EE4E036929BBA5DB00CB2A1C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E036829BBA5DB00CB2A1C /* StoreKit.framework */; };
+		EE4E036B29BBA5E100CB2A1C /* LinkPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E036A29BBA5E100CB2A1C /* LinkPresentation.framework */; };
 		FEBD115729B66E300088E407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD115629B66E300088E407 /* AppDelegate.swift */; };
 		FEBD115929B66E300088E407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD115829B66E300088E407 /* SceneDelegate.swift */; };
 		FEBD115B29B66E300088E407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD115A29B66E300088E407 /* ViewController.swift */; };
@@ -43,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE4E035A29BBA5AB00CB2A1C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		EE4E035C29BBA5B200CB2A1C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE4E035E29BBA5BC00CB2A1C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EE4E036029BBA5C100CB2A1C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EE4E036229BBA5C700CB2A1C /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		EE4E036429BBA5CD00CB2A1C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		EE4E036629BBA5D300CB2A1C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EE4E036829BBA5DB00CB2A1C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EE4E036A29BBA5E100CB2A1C /* LinkPresentation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkPresentation.framework; path = System/Library/Frameworks/LinkPresentation.framework; sourceTree = SDKROOT; };
 		FEBD115329B66E300088E407 /* Snowman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snowman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBD115629B66E300088E407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBD115829B66E300088E407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +89,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4E036B29BBA5E100CB2A1C /* LinkPresentation.framework in Frameworks */,
+				EE4E036929BBA5DB00CB2A1C /* StoreKit.framework in Frameworks */,
+				EE4E036729BBA5D400CB2A1C /* AdSupport.framework in Frameworks */,
+				EE4E036529BBA5CD00CB2A1C /* AdServices.framework in Frameworks */,
+				EE4E036329BBA5C700CB2A1C /* CoreSpotlight.framework in Frameworks */,
+				EE4E036129BBA5C100CB2A1C /* WebKit.framework in Frameworks */,
+				EE4E035F29BBA5BC00CB2A1C /* CoreTelephony.framework in Frameworks */,
+				EE4E035D29BBA5B200CB2A1C /* SystemConfiguration.framework in Frameworks */,
+				EE4E035B29BBA5AB00CB2A1C /* CoreServices.framework in Frameworks */,
+				EE4E035829BBA4AF00CB2A1C /* BranchSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +119,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE4E035929BBA5AB00CB2A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E036A29BBA5E100CB2A1C /* LinkPresentation.framework */,
+				EE4E036829BBA5DB00CB2A1C /* StoreKit.framework */,
+				EE4E036629BBA5D300CB2A1C /* AdSupport.framework */,
+				EE4E036429BBA5CD00CB2A1C /* AdServices.framework */,
+				EE4E036229BBA5C700CB2A1C /* CoreSpotlight.framework */,
+				EE4E036029BBA5C100CB2A1C /* WebKit.framework */,
+				EE4E035E29BBA5BC00CB2A1C /* CoreTelephony.framework */,
+				EE4E035C29BBA5B200CB2A1C /* SystemConfiguration.framework */,
+				EE4E035A29BBA5AB00CB2A1C /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEBD114A29B66E300088E407 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +142,7 @@
 				FEBD116C29B66E310088E407 /* SnowmanTests */,
 				FEBD117629B66E310088E407 /* SnowmanUITests */,
 				FEBD115429B66E300088E407 /* Products */,
+				EE4E035929BBA5AB00CB2A1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,6 +250,9 @@
 			dependencies = (
 			);
 			name = Snowman;
+			packageProductDependencies = (
+				EE4E035729BBA4AF00CB2A1C /* BranchSDK */,
+			);
 			productName = Snowman;
 			productReference = FEBD115329B66E300088E407 /* Snowman.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +325,9 @@
 				Base,
 			);
 			mainGroup = FEBD114A29B66E300088E407;
+			packageReferences = (
+				EE4E035629BBA4AF00CB2A1C /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+			);
 			productRefGroup = FEBD115429B66E300088E407 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -670,6 +722,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE4E035629BBA4AF00CB2A1C /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE4E035729BBA4AF00CB2A1C /* BranchSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE4E035629BBA4AF00CB2A1C /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
+			productName = BranchSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FEBD114B29B66E300088E407 /* Project object */;
 }
