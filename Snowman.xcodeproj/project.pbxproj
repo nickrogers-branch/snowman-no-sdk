@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3240A05729BF722A00FD85EB /* Snowman.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3240A05629BF717E00FD85EB /* Snowman.entitlements */; };
+		3240A05A29BF749A00FD85EB /* BranchSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 3240A05929BF749A00FD85EB /* BranchSDK */; };
+		3240A05D29BF751200FD85EB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A05C29BF751200FD85EB /* iAd.framework */; };
+		3240A05F29BF751900FD85EB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A05E29BF751900FD85EB /* WebKit.framework */; };
+		3240A06129BF752300FD85EB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A06029BF752300FD85EB /* CoreTelephony.framework */; };
+		3240A06329BF752B00FD85EB /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A06229BF752B00FD85EB /* CoreSpotlight.framework */; };
+		3240A06529BF755300FD85EB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A06429BF755300FD85EB /* SystemConfiguration.framework */; };
+		3240A06729BF756500FD85EB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A06629BF756500FD85EB /* CoreServices.framework */; };
+		3240A06929BF756D00FD85EB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A06829BF756D00FD85EB /* AdSupport.framework */; };
+		3240A06B29BF757500FD85EB /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240A06A29BF757500FD85EB /* AdServices.framework */; };
 		FEBD115729B66E300088E407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD115629B66E300088E407 /* AppDelegate.swift */; };
 		FEBD115929B66E300088E407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD115829B66E300088E407 /* SceneDelegate.swift */; };
 		FEBD115B29B66E300088E407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD115A29B66E300088E407 /* ViewController.swift */; };
@@ -43,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3240A05629BF717E00FD85EB /* Snowman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snowman.entitlements; sourceTree = "<group>"; };
+		3240A05C29BF751200FD85EB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		3240A05E29BF751900FD85EB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3240A06029BF752300FD85EB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3240A06229BF752B00FD85EB /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		3240A06429BF755300FD85EB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3240A06629BF756500FD85EB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		3240A06829BF756D00FD85EB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3240A06A29BF757500FD85EB /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		FEBD115329B66E300088E407 /* Snowman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snowman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBD115629B66E300088E407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBD115829B66E300088E407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3240A06B29BF757500FD85EB /* AdServices.framework in Frameworks */,
+				3240A06929BF756D00FD85EB /* AdSupport.framework in Frameworks */,
+				3240A06729BF756500FD85EB /* CoreServices.framework in Frameworks */,
+				3240A06529BF755300FD85EB /* SystemConfiguration.framework in Frameworks */,
+				3240A06329BF752B00FD85EB /* CoreSpotlight.framework in Frameworks */,
+				3240A06129BF752300FD85EB /* CoreTelephony.framework in Frameworks */,
+				3240A05F29BF751900FD85EB /* WebKit.framework in Frameworks */,
+				3240A05D29BF751200FD85EB /* iAd.framework in Frameworks */,
+				3240A05A29BF749A00FD85EB /* BranchSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +118,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3240A05B29BF751200FD85EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3240A06A29BF757500FD85EB /* AdServices.framework */,
+				3240A06829BF756D00FD85EB /* AdSupport.framework */,
+				3240A06629BF756500FD85EB /* CoreServices.framework */,
+				3240A06429BF755300FD85EB /* SystemConfiguration.framework */,
+				3240A06229BF752B00FD85EB /* CoreSpotlight.framework */,
+				3240A06029BF752300FD85EB /* CoreTelephony.framework */,
+				3240A05E29BF751900FD85EB /* WebKit.framework */,
+				3240A05C29BF751200FD85EB /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEBD114A29B66E300088E407 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +140,7 @@
 				FEBD116C29B66E310088E407 /* SnowmanTests */,
 				FEBD117629B66E310088E407 /* SnowmanUITests */,
 				FEBD115429B66E300088E407 /* Products */,
+				3240A05B29BF751200FD85EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +157,7 @@
 		FEBD115529B66E300088E407 /* Snowman */ = {
 			isa = PBXGroup;
 			children = (
+				3240A05629BF717E00FD85EB /* Snowman.entitlements */,
 				FEBD119929B66F680088E407 /* App */,
 				FEBD118829B66EE50088E407 /* Controller */,
 				FEBD118729B66EE10088E407 /* View */,
@@ -204,6 +249,9 @@
 			dependencies = (
 			);
 			name = Snowman;
+			packageProductDependencies = (
+				3240A05929BF749A00FD85EB /* BranchSDK */,
+			);
 			productName = Snowman;
 			productReference = FEBD115329B66E300088E407 /* Snowman.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +324,9 @@
 				Base,
 			);
 			mainGroup = FEBD114A29B66E300088E407;
+			packageReferences = (
+				3240A05829BF749A00FD85EB /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+			);
 			productRefGroup = FEBD115429B66E300088E407 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -292,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3240A05729BF722A00FD85EB /* Snowman.entitlements in Resources */,
 				FEBD116329B66E310088E407 /* LaunchScreen.storyboard in Resources */,
 				FEBD119C29B66FC10088E407 /* Assets.xcassets in Resources */,
 				FEBD115E29B66E300088E407 /* Main.storyboard in Resources */,
@@ -503,6 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snowman/Snowman.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R63EM248DP;
@@ -531,6 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snowman/Snowman.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R63EM248DP;
@@ -670,6 +724,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3240A05829BF749A00FD85EB /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3240A05929BF749A00FD85EB /* BranchSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3240A05829BF749A00FD85EB /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
+			productName = BranchSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FEBD114B29B66E300088E407 /* Project object */;
 }
