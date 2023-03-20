@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>io.branch.Snowman</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>Snowman</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,5 +35,15 @@
 			</array>
 		</dict>
 	</dict>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_gFmdjHDQHYAIBEGzvmwYXeakCyiHiG44</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>kelson.app.link</string>
+		<string>kelson-alternate.app.link</string>
+	</array>
 </dict>
 </plist>

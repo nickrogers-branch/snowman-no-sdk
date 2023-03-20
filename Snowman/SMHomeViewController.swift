@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import BranchSDK
+
 
 /**
  Home view controller for Snowman.
@@ -22,7 +24,7 @@ class SMHomeViewController: UIViewController
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
-    
+   
     /// UIButton to load the snowman creation view.
     internal var makeButton: UIButton =
     {
@@ -65,6 +67,7 @@ class SMHomeViewController: UIViewController
     override func viewDidAppear(_ animated: Bool)
     {
         super.viewDidAppear(animated)
+        Branch.getInstance().setIdentity(NSUserName())
     }
     
     @objc func makeButtonPressed(_ button: UIButton)
